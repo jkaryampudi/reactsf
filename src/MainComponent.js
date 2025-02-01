@@ -6,7 +6,7 @@ const MainComponent = () => {
 
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h2>Welcome to React + Azure AD Authenticatsion</h2>
+      <h2>Welcome to React + Azure AD Authentication</h2>
 
       {!isAuthenticated ? (
         <button onClick={() => loginWithRedirect()} style={{ padding: "10px", fontSize: "16px" }}>
